@@ -1,0 +1,23 @@
+.input {
+
+    padding: 20px;
+    border-radius: 12px;
+
+    background-clip: padding-box;
+    border-style: none;
+
+    -webkit-box-shadow: 0px 0px 4px 0px #ffffff;
+
+    box-shadow: 0px 0px 4px 0px #ffffff;
+    align-items: center;
+    justify-content: center;
+    background-color: #005db4;
+    background-image: -webkit-linear-gradient(top, #12067a, #0973ff);
+    background-image: linear-gradient(to bottom, #0650ee, #09ceff);
+
+    -webkit-transform: scale(0.8);
+    /* Chrome, Opera 15+, Safari 3.1+ */
+    -ms-transform: scale(0.8);
+    /* IE 9 */
+    transform: scale(0.8)
+}
