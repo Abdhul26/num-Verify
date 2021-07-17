@@ -1,21 +1,15 @@
-import React, { useState } from "react";
+import React from "react";
 import "./App.css";
-import InputFields from "./components/InputField/InputField";
 import NumVerify from "./components/NumVerify/NumVerify";
 
 function App() {
-  const [value, setValue] = useState(null);
-
-  const changeName = (name) => {
-    setValue(name);
-    console.log(value);
-  };
-
   return (
-    <div className="container">
-      <InputFields onChangeName={(e) => changeName(e.target.value)} />
+    <>
+      <label for="phone">Enter your phone number:</label>
+      <input type="tel" id="phone" />
+      <button>check</button>
       <NumVerify number={8220365174} />
-    </div>
+    </>
   );
 }
 
