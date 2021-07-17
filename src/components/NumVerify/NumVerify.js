@@ -5,7 +5,7 @@ const NumVerify = (props) => {
   const [data, setData] = useState(null);
   useEffect(() => {
     fetch(
-      "http://apilayer.net/api/validate?access_key=3eece2042c90e054c219c77fd5453008&country_code=IN&format=1&number=" +
+      "http://apilayer.net/api/validate?access_key=ba00c56b8e3fb10368551db3a5e8800d&country_code=IN&format=1&number=" +
         `$(onChangeName)`
     )
       .then((response) => {
